@@ -1,8 +1,8 @@
 module.exports = {
-  HOST: "localhost",
-  USER: "root",
-  PASSWORD: "123456",
-  DB: "tlntr-dev",
+  HOST: process.env.HOST,
+  USER: process.env.USER,
+  PASSWORD: process.env.PASSWORD,
+  DB: "tlntr_test",
   dialect: "postgres",
   pool: {
     max: 5,
